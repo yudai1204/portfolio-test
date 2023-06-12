@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     environment: github-pages
     env:
-      BRANCH_NAME: ${{ vars.BRANCH_NAME }}
+      BRANCH_NAME: ${{ vars.BRANCH_NAME  }}
     steps:
       - name: Checkout
         uses: actions/checkout@v3
