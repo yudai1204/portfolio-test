@@ -7,8 +7,8 @@ import SwiperCore, { Pagination, Navigation, Autoplay } from 'swiper' //使い�
 
 export default function Carousel() {
     const images = [
-        '/w1.jpg',
-        '/w2.jpg',
+        'w1.jpg',
+        'w2.jpg',
         ]
     return (
         <div className={styles.sell}>
