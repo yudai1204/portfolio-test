@@ -44,7 +44,6 @@
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
-
   max-width: 800px;
   margin-top: 3rem;
 }
@@ -59,6 +58,7 @@
   border: 1px solid #eaeaea;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
+  
 }
 
 .card:hover,
@@ -88,4 +88,62 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.selfIntroduction {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.topLogo {
+  width: 50%;
+  border-radius: 40%;
+  margin-right: 10%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.topName {
+  width: 50%;
+}
+
+.aboutMe {
+  margin: 0 auto;
+  width: calc(100% - 4rem);
+  max-width: 850px;
+  padding: .5rem;
+}
+
+.canvaDiv {
+  position: relative;
+  width: 100%;
+  height: 0;
+  padding-top: 56.2500%;
+  padding-bottom: 0;
+  box-shadow: 0 2px 8px 0 rgba(63, 69, 81, 0.16);
+  margin-top: 1.6em;
+  margin-bottom: 0.9em;
+  overflow: hidden;
+  border-radius: 8px;
+  will-change: transform;
+}
+
+.canvaIframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.normalLink{
+  color: inherit;
 }

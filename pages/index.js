@@ -1,62 +1,100 @@
 import Head from 'next/head';
 import styles from '../styles/Home.module.css';
+import Link from 'next/link';
+import Menu from '../components/menu';
+import Carousel from '../components/carousel';
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Create Next App</title>
+        <title>yudai04's portfolio</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-
+      <Menu active="home" />
       <main>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-
-        <p className={styles.description}>
-          Get started by editing <code>pages/index.js</code>
-        </p>
+        <div className={styles.selfIntroduction}>
+          <div className={styles.topName}>
+            <img className={styles.topLogo} src="icon.jpg" />
+          </div>
+          <div className={styles.topName}>
+            <h2>yudai04</h2>
+            <h3>Chiba, Japan</h3>
+          </div>
+        </div>
+        <div className={styles.aboutMe}>
+          <h2>About Me</h2>
+          <p>中学でロボコンに出場する部活動に入りロボットプログラミングや電子工作を学びました。</p>
+          <p>また、同時期にBasic言語で簡易的なゲームやツール等を作成し、Windows上でのGUI開発を学びました。</p>
+          <p>高校では文化祭でApacheを使用したWebサーバー運用の知識も携えました。</p>
+          <p>現在は大学で情報系を専攻し、フロントエンドを中心にデジタルアートやゲーム開発、電子工作などを行っています。</p>
+        </div>
+        <div className={styles.aboutMe}>
+          <h2>Works</h2>
+          詳細は<Link href="/works" className={styles.normalLink}>こちら</Link>のページをご覧ください。
+          <Carousel />
+        </div>
+        <div className={styles.aboutMe}>
+          <h2>Skills</h2>
+          <p>HTML / CSS / JavaScript / TypeScript /  React / Next.js / Node.js / SQL / Python / C / PHP / Java / Unity / Photoshop / Illustrator / Premiere Pro / After Effects</p>
+        </div>
+        <div className={styles.aboutMe}>
+          <h2>所属</h2>
+          <p>芝浦工業大学 工学部情報工学科</p>
+          <p><a className={styles.normalLink} href="https://shibalab.com">ShibaLab</a></p>
+          <p><a className={styles.normalLink} href="https://digicre.net">デジクリ</a></p>
+        </div>
+        <div className={styles.aboutMe}>
+          <h2>自己紹介スライド</h2>
+          <div className={styles.canvaDiv}>
+            <iframe loading="lazy" className={styles.canvaIframe}
+              src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlMuGeCWA&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+            </iframe>
+          </div>
+          
+          <p>Link: <a className={styles.normalLink} href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlMuGeCWA&#x2F;view?utm_content=DAFlMuGeCWA&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">yudai04 | Self-Introduction</a></p>
+          <p>made with <a className={styles.normalLink} href="canva.com">Canva</a></p>
+        </div>
+      
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+          <Link href="/works" className={styles.card}>
+            <h3>Works</h3>
+            <p>過去に制作した作品などはこちら</p>
+          </Link>
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
+          <Link href="/contact" className={styles.card}>
+            <h3>Contact</h3>
+            <p>各種連絡先はこちら</p>
+          </Link>
+
+          <a
+            href="https://github.com/yudai1204"
+            className={styles.card}
+          >
+            <h3>GitHub</h3>
+            <p>私のGitHubレポジトリです</p>
           </a>
 
           <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
+            href="https://crowdworks.jp/public/employees/4780926?ref=mypage_nav1_account"
             className={styles.card}
           >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-
-          <a
-            href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            className={styles.card}
-          >
-            <h3>Deploy &rarr;</h3>
+            <h3>Request</h3>
             <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
+              CrowdWorksへのリンク
             </p>
           </a>
         </div>
       </main>
 
       <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
+        <a className={styles.normalLink}
+          href="https://yudai04.dev"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel" className={styles.logo} />
+          @2023 Copyright yudai04.dev
         </a>
       </footer>
 
