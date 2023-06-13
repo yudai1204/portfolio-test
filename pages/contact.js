@@ -14,7 +14,7 @@ export default function Home() {
             <Menu active="home" />
             <main>
                 <h1>Contact / 各種アカウント</h1>
-                <p>botによる迷惑メール防止のため、メールアドレスはを＠を(at_mark)に置換して記述しております。<br />メールでのご連絡時はお手数おかけいたしますが適宜読み替えてご送信ください。</p>
+                <p>botによる迷惑メール防止のため、メールアドレスは＠を(at_mark)に置換して記述しております。<br />メールでのご連絡時はお手数おかけいたしますが適宜読み替えてご送信ください。</p>
                 <div>
                     <div className={styles.contactContainer}>
                         <h3>Mail</h3>
