@@ -46,6 +46,7 @@
 
 .icons{
     width: 5rem;
+    padding-top: .3rem;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -60,9 +61,9 @@
 }
 
 
-.icons > img{
-    width: 3.5rem;
-    height: 3.5rem;
+.icons img{
+    width: 3.6rem;
+    height: 3.6rem;
     border-radius: 50%;
 }
 
