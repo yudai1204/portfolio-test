@@ -53,7 +53,13 @@
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     margin: .8rem;
     border-radius: 1000000px;
+    background-color: #fff;
 }
+.icons:hover{
+    background-color: #eee;
+}
+
+
 .icons > img{
     width: 3.5rem;
     height: 3.5rem;
