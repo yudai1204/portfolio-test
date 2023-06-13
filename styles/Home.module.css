@@ -147,3 +147,24 @@
 .normalLink{
   color: inherit;
 }
+
+.contactContainer{
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+.contactContainer > h3{
+  margin: .5rem;
+}
+
+.main{
+  width: 95%;
+}
+
+.workContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}

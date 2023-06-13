@@ -5,7 +5,7 @@ export default function Menu({active}) {
     return (
         <div className={styles.menu}>
             <div className={styles.icons}>
-                <img src="icon.jpg"></img>
+                <img src="https://yudai04.dev/icon.jpg" />
             </div>
             <ul>
                 <li className={styles.menuLi}><Link href="/">Home</Link></li>

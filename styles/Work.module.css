@@ -1,6 +1,33 @@
 .work{
-    width: 90%;
+    padding: 1rem;
+    width: 100%;
     max-width: 800px;
     border-radius: 2rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    margin: 1rem;
+}
+
+.worksImg{
+    width: 100px;
+    height:100px;
+}
+
+@media screen and (min-width:950px){
+    .work{
+        flex-basis: 45%;
+    }
+}
+
+.tagArea{
+    display: flex;
+    margin-bottom: 1rem;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+.tag{
+    background-color: antiquewhite;
+    margin: .3rem;
+    padding: .1rem .6rem;
+    border-radius:1rem;
 }
