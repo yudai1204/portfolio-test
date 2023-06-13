@@ -101,7 +101,7 @@ export default function Home() {
                         lang="Unity"
                         tags={["Unity", "複数人開発", "インタラクティブアート", "ShibaLab"]}
                         imgs={['/catandseek1.png']}
-                        videos={["cyCVDUqz6Mc"]}
+                        videos={["3c3dtXT7k1w"]}
                         statement={
                             <>
                                 学祭に向けShibaLabで発表したインタラクティブアート作品です。<br />
