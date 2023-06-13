@@ -83,10 +83,13 @@
   height: 1em;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 640px) {
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .card{
+    width: 80%;
   }
 }
 
