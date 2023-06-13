@@ -164,6 +164,22 @@ export default function Home() {
                         }]}
                     />
                     <Work
+                        title="ShibaLab 紹介動画"
+                        year="2023"
+                        lang="AviUtl"
+                        tags={["AviUtl", "ShibaLab"]}
+                        imgs={[]}
+                        videos={["C2-YqtxBFP0"]}
+                        statement={
+                            <>
+                                新入生向けにサークル紹介動画を作成しました。
+                            </>}
+                        links={[{
+                            title:"YouTube - Future Radiance",
+                            url:"https://www.youtube.com/watch?v=C2-YqtxBFP0"
+                        }]}
+                    />
+                    <Work
                         title="文化祭ステージ企画"
                         year="2019"
                         lang="PHP / HTML / CSS / HSP3 / GCP"
