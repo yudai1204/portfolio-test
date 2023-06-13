@@ -29,8 +29,8 @@ export default function Home() {
                         <a href="https://twitter.com/yudai1204" className={styles.normalLink}>@yudai1204</a>
                     </div>
                     <div className={styles.contactContainer}>
-                        <h3>Twitter</h3>
-                        <a href="https://twitter.com/yudai1204" className={styles.normalLink}>@yudai1204</a>
+                        <h3>Wantedly</h3>
+                        <a href="https://www.wantedly.com/id/yudai1204" className={styles.normalLink}>@yudai1204</a>
                     </div>
                     <div className={styles.contactContainer}>
                         <h3>crowdworks</h3>
