@@ -10,6 +10,12 @@ export default function Home() {
       <Head>
         <title>yudai04's portfolio</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name="description" content="yudai04's portfolio" />
+        <meta property="og:title" content="yudai04's portfolio" />
+        <meta property="og:site_name" content="yudai04's portfolio" />
+        <meta property="og:description" content="yudai04's portfolio" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://yudai04.dev/ogp.png" />
       </Head>
       <Menu active="home" />
       <main>
