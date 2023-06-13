@@ -148,6 +148,22 @@ export default function Home() {
                         }]}
                     />
                     <Work
+                        title="ポートフォリオサイト"
+                        year="2023"
+                        lang="Next.js / React"
+                        tags={["Next.js","React","JavaScript", "GitHub Pages", "個人開発"]}
+                        imgs={['/portfolio.png']}
+                        videos={[]}
+                        statement={
+                            <>
+                                このWebサイトです。Next.jsで開発し、GitHub Pagesにデプロイされています。
+                            </>}
+                        links={[{
+                            title:"GitHubレポジトリ",
+                            url:"https://github.com/yudai1204/portfolio-test"
+                        }]}
+                    />
+                    <Work
                         title="文化祭ステージ企画"
                         year="2019"
                         lang="PHP / HTML / CSS / HSP3 / GCP"
