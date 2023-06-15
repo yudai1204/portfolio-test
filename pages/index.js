@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <div className={styles.aboutMe}>
           <h2>Skills</h2>
-          <p>HTML / CSS / JavaScript / TypeScript /  React / Next.js / Node.js / SQL / Python / C / PHP / Java / Unity / Photoshop / Illustrator / Premiere Pro / After Effects</p>
+          <p>HTML / CSS / JavaScript / TypeScript /  React / Next.js / Node.js / SQL / Python / C / PHP / Java / Unity / Photoshop / Illustrator / Premiere Pro / After Effects / Figma / Canva</p>
         </div>
         <div className={styles.aboutMe}>
           <h2>所属</h2>
