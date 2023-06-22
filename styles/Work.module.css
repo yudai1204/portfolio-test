@@ -5,6 +5,9 @@
     border-radius: 2rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     margin: 1rem;
+    line-height: 1.5em;
+    letter-spacing: 0.025em;
+    font-family: 'Noto Sans JP', sans-serif;
 }
 
 .worksImg{
