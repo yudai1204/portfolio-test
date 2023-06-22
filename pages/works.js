@@ -75,7 +75,10 @@ export default function Home() {
                                 サーバーはAWS EC2 (Apache)、DBにはAWS RDSを使用しPython FlaskでAPIを作成しました。<br />
                                 読み込ませるデータ量を増やしたり、プロンプトを変更することでより精度を高められます。
                             </>}
-                        links={[]}
+                        links={[{
+                            title: "GitHub レポジトリ",
+                            url: "https://github.com/yudai1204/LlamaIndex-LineBot"
+                        }]}
                     />
                     <Work
                         title="文化祭ステージ企画"
