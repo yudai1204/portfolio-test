@@ -60,7 +60,7 @@ export default function Home() {
                         links={[]}
                     />
                     <Work
-                        title="ShibaLab 紹介動画"
+                        title="AI返信Bot"
                         year="2023"
                         lang="Python / AWS"
                         tags={["Python","Flask","MySQL","AWS", "EC2","RDS","ChatGPT", "LINE Messaging API","クラウドソーシング", "個人開発"]}
