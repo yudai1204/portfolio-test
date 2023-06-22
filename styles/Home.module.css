@@ -103,9 +103,10 @@
   margin-top: 3rem;
   margin-bottom: 2rem;
   position: relative;
-  background: linear-gradient(70deg, #fef7ef, #feeff9);
+  /* background: linear-gradient(70deg, #fef7ef, #feeff9); */
+  background: linear-gradient(70deg, #fffabc88, #e0ebaf99);
   padding: 1rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(100, 100, 0, 0.3);
   border-radius: 4px;
 }
 .selfIntroduction::before, .selfIntroduction::after {
@@ -114,8 +115,8 @@
   top: 0;
   width: .5rem;
   height: 100%;
-  background: linear-gradient(0deg, #fce0bf, #fcbfe7);
-  
+  /* background: linear-gradient(0deg, #fce0bf, #fcbfe7); */
+  background: linear-gradient(0deg, #fac11288, #feef0088);
   z-index: 1;
 }
 .selfIntroduction::before{
@@ -205,7 +206,7 @@
   position: relative;
   color: #fff;
   text-decoration: none;
-  background: linear-gradient(90deg, #0070f3, #00b1f3);
+  background: linear-gradient(45deg,rgb(21, 168, 203), #005496 );
   padding: 0.5rem 1rem;
   margin: 0.5rem;
   border-radius: 10000px;
