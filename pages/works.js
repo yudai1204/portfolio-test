@@ -60,6 +60,42 @@ export default function Home() {
                         links={[]}
                     />
                     <Work
+                        title="ShibaLab 紹介動画"
+                        year="2023"
+                        lang="Python / AWS"
+                        tags={["Python","Flask","MySQL","AWS", "EC2","RDS","ChatGPT", "LINE Messaging API","クラウドソーシング", "個人開発"]}
+                        imgs={["/line_bot.jpg"]}
+                        videos={[]}
+                        statement={
+                            <>
+                                LINE Messaging API及びChatGPTを用いた自動返信Botです。<br />
+                                LlamaIndexというライブラリを用い、事前に設定した知識情報をもとに返信することができ、ChatGPTの制限よりも多いデータ数を読み込ませることができるためオリジナルの返信をすることができます。<br />
+                                今回は依頼元クリニックのデータと医療データを大量に読み込み、医療に関する質問に答えることができるようにしました。<br />
+                                DBに会話履歴を保存しAPIに送信することで会話の流れを読んだ回答をすることができます。<br />
+                                サーバーはAWS EC2 (Apache)、DBにはAWS RDSを使用しPython FlaskでAPIを作成しました。<br />
+                                読み込ませるデータ量を増やしたり、プロンプトを変更することでより精度を高められます。
+                            </>}
+                        links={[]}
+                    />
+                    <Work
+                        title="文化祭ステージ企画"
+                        year="2019"
+                        lang="PHP / HTML / CSS / HSP3 / GCP"
+                        tags={["PHP", "GCP", "GCE", "MySQL", "Linux", "CentOS", "HSP3"]}
+                        imgs={['/bunkasai.png']}
+                        videos={[]}
+                        statement={
+                            <>
+                                GCP無料枠を使い、Google Compute Engine上にApacheサーバーを立てて運営。<br />
+                                ドメイン取得、SSL化、PHPインストールからコーディングまでシステム全般を担当。<br />
+                                また、プロジェクター3台を制御する自作プログラムを作成(HSP3)。<br />
+                                スマホのカメラを生中継したり動画を再生したりを手元のコンピューターから制御。<br />
+
+                                ニコニコ動画のようなコメントスクリーンシステムを制作したが、スマホが基本的に禁止のため本番では実現しなかった。
+                            </>}
+                        links={[]}
+                    />
+                    <Work
                         title="ScombZ Status Bot"
                         year="2023"
                         lang="Python"

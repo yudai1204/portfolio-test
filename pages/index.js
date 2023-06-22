@@ -42,7 +42,24 @@ export default function Home() {
         </div>
         <div className={styles.aboutMe}>
           <h2>Skills</h2>
-          <p>HTML / CSS / JavaScript / TypeScript /  React / Next.js / Node.js / SQL / Python / C / PHP / Java / Unity / Photoshop / Illustrator / Premiere Pro / After Effects / Figma / Canva</p>
+          <div>
+            <h4>プログラミング言語</h4>
+            <p>JavaScript / TypeScript / GAS / SQL / Python3 / C / PHP / Java / HSP3 / HTML / CSS</p>
+          </div>
+          <div>
+            <h4>フレームワーク</h4>
+            <p>React / Next.js / Node.js / Flask / numpy / Unity</p>
+          </div>
+          <div>
+            <h4>インフラ環境</h4>
+            <p>GCP - GCE / Firebase</p>
+            <p>AWS - EC2 / RDS</p>
+            <p>Apache / nginx / MySQL / Heroku</p>
+          </div>
+          <div>
+            <h4>ツール</h4>
+            <p>Photoshop / Illustrator / Premiere Pro / After Effects / Figma / Canva</p>
+          </div>
         </div>
         <div className={styles.aboutMe}>
           <h2>所属</h2>
