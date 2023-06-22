@@ -63,7 +63,7 @@ export default function Home() {
           </div>
           <div className={styles.skillDiv}>
             <h4>ツール</h4>
-            <p>Photoshop / Illustrator / Premiere Pro / After Effects / Figma / Canva</p>
+            <p>Photoshop / TouchDesigner / Illustrator / Premiere Pro / After Effects / AviUtl / Figma / Canva</p>
           </div>
         </div>
         <div className={styles.aboutMe}>

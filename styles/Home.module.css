@@ -182,6 +182,10 @@
   margin: .5rem;
 }
 
+.contactContainer > a{
+  margin: .8rem;
+}
+
 .main{
   width: 95%;
 }
