@@ -28,12 +28,17 @@ export default function Home() {
             <h3>Chiba, Japan</h3>
           </div>
         </div>
+        
         <div className={styles.aboutMe}>
           <h2>About Me</h2>
           <p>中学でロボコンに出場する部活動に入りロボットプログラミングや電子工作を学びました。</p>
           <p>また、同時期にBasic言語で簡易的なゲームやツール等を作成し、Windows上でのGUI開発を学びました。</p>
           <p>高校では文化祭でApacheを使用したWebサーバー運用の知識も携えました。</p>
           <p>現在は大学で情報系を専攻し、フロントエンドを中心にデジタルアートやゲーム開発、電子工作などを行っています。</p>
+        </div>
+        <div className={styles.blueBtnArea}>
+          <Link className={styles.blueButton} href="/works">Works</Link>
+          <a className={styles.blueButton} href="https://www.wantedly.com/id/yudai1204">Wantedly</a>
         </div>
         <div className={styles.aboutMe}>
           <h2>Works</h2>
@@ -42,21 +47,21 @@ export default function Home() {
         </div>
         <div className={styles.aboutMe}>
           <h2>Skills</h2>
-          <div>
+          <div className={styles.skillDiv}>
             <h4>プログラミング言語</h4>
             <p>JavaScript / TypeScript / GAS / SQL / Python3 / C / PHP / Java / HSP3 / HTML / CSS</p>
           </div>
-          <div>
+          <div className={styles.skillDiv}>
             <h4>フレームワーク</h4>
             <p>React / Next.js / Node.js / Flask / numpy / Unity</p>
           </div>
-          <div>
+          <div className={styles.skillDiv}>
             <h4>インフラ環境</h4>
             <p>GCP - GCE / Firebase</p>
             <p>AWS - EC2 / RDS</p>
             <p>Apache / nginx / MySQL / Heroku</p>
           </div>
-          <div>
+          <div className={styles.skillDiv}>
             <h4>ツール</h4>
             <p>Photoshop / Illustrator / Premiere Pro / After Effects / Figma / Canva</p>
           </div>
@@ -74,11 +79,11 @@ export default function Home() {
               src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlMuGeCWA&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
             </iframe>
           </div>
-          
+
           <p>Link: <a className={styles.normalLink} href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlMuGeCWA&#x2F;view?utm_content=DAFlMuGeCWA&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">yudai04 | Self-Introduction</a></p>
           <p>made with <a className={styles.normalLink} href="canva.com">Canva</a></p>
         </div>
-      
+
 
         <div className={styles.grid}>
           <Link href="/works" className={styles.card}>

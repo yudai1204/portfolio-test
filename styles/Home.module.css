@@ -102,13 +102,35 @@
   text-align: center;
   margin-top: 3rem;
   margin-bottom: 2rem;
+  position: relative;
+  background: linear-gradient(70deg, #fef7ef, #feeff9);
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.selfIntroduction::before, .selfIntroduction::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  width: .5rem;
+  height: 100%;
+  background: linear-gradient(0deg, #fce0bf, #fcbfe7);
+  
+  z-index: 1;
+}
+.selfIntroduction::before{
+  border-radius: 4px 0 0 4px;
+  left: 0;
+}
+.selfIntroduction::after{
+  border-radius: 0 4px 4px 0;
+  right: 0;
 }
 
 .topLogo {
   width: 50%;
   border-radius: 40%;
   margin-right: 10%;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px #e3d2d8;
 }
 
 .topName {
@@ -171,4 +193,54 @@
   justify-content: center;
   flex-wrap: wrap;
   align-items: stretch;
+}
+
+.blueButton{
+  display :block;
+  position: relative;
+  color: #fff;
+  text-decoration: none;
+  background: linear-gradient(90deg, #0070f3, #00b1f3);
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+  border-radius: 10000px;
+  text-align: center;
+  width: 18rem;
+  transition: all 0.2s ease;
+  box-shadow: 2px 1px 5px 0 #0085b688;
+}
+.blueButton:hover{
+  opacity: 0.8;
+}
+.blueButton::after{
+  content: "";
+  display: block;
+  width: .8rem;
+  height: .8rem;
+  background: none;
+  border-top: 2px solid #fffd;
+  border-right: 2px solid #fffd;
+  position: absolute;
+  top: 0;
+  left: 3rem;
+  transition: all 0.2s ease;
+  transform: translateY(.7rem) rotate(45deg);
+}
+.blueButton:hover::after{
+  border-color: #fff;
+  transform: translate(1rem,.7rem) rotate(45deg);
+}
+
+
+.blueBtnArea{
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.skillDiv h4{
+  margin-bottom: 0;
+  padding: 0;
+}
+.skillDiv p{
+  margin: .4rem;
 }
