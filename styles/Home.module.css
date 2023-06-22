@@ -106,6 +106,7 @@
   background: linear-gradient(70deg, #fef7ef, #feeff9);
   padding: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
 }
 .selfIntroduction::before, .selfIntroduction::after {
   content: "";
