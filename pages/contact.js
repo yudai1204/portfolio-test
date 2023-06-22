@@ -18,7 +18,7 @@ export default function Home() {
                 <div>
                     <div className={styles.contactContainer}>
                         <h3>Mail</h3>
-                        yudai1204u (at_mark) gmail.com
+                        <a>yudai1204u (at_mark) gmail.com</a>
                     </div>
                     <div className={styles.contactContainer}>
                         <h3>GitHub</h3>
