@@ -9,7 +9,7 @@ export default function Carousel() {
     const images = [
         'w1.jpg',
         'w2.jpg',
-        ]
+    ]
     return (
         <div className={styles.sell}>
             <Swiper
@@ -37,9 +37,10 @@ export default function Carousel() {
                     )
                 })}
                 <SwiperSlide key={images.length}>
-                <iframe className={styles.img} src="https://www.youtube.com/embed/C2-YqtxBFP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <iframe className={styles.img} src="https://www.youtube.com/embed/C2-YqtxBFP0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                 </SwiperSlide>
             </Swiper>
+            
         </div>
     );
 }
