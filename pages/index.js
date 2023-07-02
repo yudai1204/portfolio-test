@@ -81,7 +81,7 @@ export default function Home() {
           </div>
 
           <p>Link: <a className={styles.normalLink} href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlMuGeCWA&#x2F;view?utm_content=DAFlMuGeCWA&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">yudai04 | Self-Introduction</a></p>
-          <p>made with <a className={styles.normalLink} href="canva.com">Canva</a></p>
+          <p>made with <a className={styles.normalLink} href="https://canva.com" target="_blank" rel="noopener">Canva</a></p>
         </div>
 
 
