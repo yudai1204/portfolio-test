@@ -203,6 +203,41 @@ export default function Home() {
                         }]}
                     />
                     <Work
+                        title="学バス アプリ(モック)"
+                        year="2023"
+                        lang="Figma"
+                        tags={["Figma", "デザイン"]}
+                        imgs={['/bus.jpg']}
+                        videos={[]}
+                        statement={
+                            <>
+                                Figmaで大学⇔駅間のバスの時刻表を表示するアプリのモックを作成しました。<br/>
+                                直感的に大学発と駅発を変更させたり、埼玉特有の真夏の強い日差しであっても見やすくなるように、色やコントラストを工夫しました。<br/>
+                                TypeScript / Next.jsで実装する予定です。
+                            </>}
+                        links={[{
+                            title: "Figma",
+                            url: "https://www.figma.com/file/dfHfkoQ8BzfSO2qju5U3tx/bus-app?type=design&node-id=0-1&mode=design"
+                        }]}
+                    />
+                    <Work
+                        title="サークル紹介スライド"
+                        year="2023"
+                        lang="Canva"
+                        tags={["Canva", "デザイン","スライド"]}
+                        imgs={['/ap.jpg']}
+                        videos={[]}
+                        statement={
+                            <>
+                                Canvaを使い所属するサークルShibaLabの紹介スライドを作成しました。<br/>
+                                光と色を使うサークルなので、フォントにもこだわり透明感にこだわったデザインにしました。
+                            </>}
+                        links={[{
+                            title: "Canva",
+                            url: "https://www.canva.com/design/DAFnGIwxA2A/_Enb0Ytz69Mgbu-GyHMrVQ/view?utm_content=DAFnGIwxA2A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                        }]}
+                    />
+                    <Work
                         title="ShibaLab 紹介動画"
                         year="2023"
                         lang="AviUtl"
