@@ -234,7 +234,7 @@ export default function Home() {
                             </>}
                         links={[{
                             title: "Canva",
-                            url: "https://www.canva.com/design/DAFnGIwxA2A/_Enb0Ytz69Mgbu-GyHMrVQ/view?utm_content=DAFnGIwxA2A&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
+                            url: "https://www.canva.com/design/DAFmn-FRuJw/jpsbah0-hj6CPfFsHIqHAA/view?utm_content=DAFmn-FRuJw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                         }]}
                     />
                     <Work
