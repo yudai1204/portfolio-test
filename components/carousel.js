@@ -9,6 +9,7 @@ export default function Carousel() {
     const images = [
         'w1.jpg',
         'w2.jpg',
+        'DSC01409.JPG'
         ]
     return (
         <div className={styles.sell}>
