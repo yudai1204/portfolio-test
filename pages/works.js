@@ -63,7 +63,7 @@ export default function Home() {
                         title="AI返信Bot"
                         year="2023"
                         lang="Python / AWS"
-                        tags={["Python","Flask","MySQL","AWS", "EC2","RDS","ChatGPT", "LINE Messaging API","クラウドソーシング", "個人開発"]}
+                        tags={["Python", "Flask", "MySQL", "AWS", "EC2", "RDS", "ChatGPT", "LINE Messaging API", "クラウドソーシング", "個人開発"]}
                         imgs={["/line_bot.jpg"]}
                         videos={[]}
                         statement={
@@ -165,8 +165,8 @@ export default function Home() {
                                 デザインからコーディングまでを1人で行いました。
                             </>}
                         links={[{
-                            title:"ShibaLab",
-                            url:"https://shibalab.com"
+                            title: "ShibaLab",
+                            url: "https://shibalab.com"
                         }]}
                     />
                     <Work
@@ -182,15 +182,15 @@ export default function Home() {
                                 bolide自体は私の所属するサークルであるデジクリ内で開発されたソフトウェアです。
                             </>}
                         links={[{
-                            title:"bolide - GitHub",
-                            url:"https://github.com/SIT-DigiCre/bolide"
+                            title: "bolide - GitHub",
+                            url: "https://github.com/SIT-DigiCre/bolide"
                         }]}
                     />
                     <Work
                         title="ポートフォリオサイト"
                         year="2023"
                         lang="Next.js / React"
-                        tags={["Next.js","React","JavaScript", "GitHub Pages", "個人開発"]}
+                        tags={["Next.js", "React", "JavaScript", "GitHub Pages", "個人開発"]}
                         imgs={['/portfolio.png']}
                         videos={[]}
                         statement={
@@ -198,8 +198,43 @@ export default function Home() {
                                 このWebサイトです。Next.jsで開発し、GitHub Pagesにデプロイされています。
                             </>}
                         links={[{
-                            title:"GitHubレポジトリ",
-                            url:"https://github.com/yudai1204/portfolio-test"
+                            title: "GitHubレポジトリ",
+                            url: "https://github.com/yudai1204/portfolio-test"
+                        }]}
+                    />
+                    <Work
+                        title="学バス アプリ(モック)"
+                        year="2023"
+                        lang="Figma"
+                        tags={["Figma", "デザイン"]}
+                        imgs={['/bus.jpg']}
+                        videos={[]}
+                        statement={
+                            <>
+                                Figmaで大学⇔駅間のバスの時刻表を表示するアプリのモックを作成しました。<br/>
+                                直感的に大学発と駅発を変更させたり、埼玉特有の真夏の強い日差しであっても見やすくなるように、色やコントラストを工夫しました。<br/>
+                                TypeScript / Next.jsで実装する予定です。
+                            </>}
+                        links={[{
+                            title: "Figma",
+                            url: "https://www.figma.com/file/dfHfkoQ8BzfSO2qju5U3tx/bus-app?type=design&node-id=0-1&mode=design"
+                        }]}
+                    />
+                    <Work
+                        title="サークル紹介スライド"
+                        year="2023"
+                        lang="Canva"
+                        tags={["Canva", "デザイン","スライド"]}
+                        imgs={['/ap.jpg']}
+                        videos={[]}
+                        statement={
+                            <>
+                                Canvaを使い所属するサークルShibaLabの紹介スライドを作成しました。<br/>
+                                光と色を使うサークルなので、フォントにもこだわり透明感にこだわったデザインにしました。
+                            </>}
+                        links={[{
+                            title: "Canva",
+                            url: "https://www.canva.com/design/DAFmn-FRuJw/jpsbah0-hj6CPfFsHIqHAA/view?utm_content=DAFmn-FRuJw&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink"
                         }]}
                     />
                     <Work
@@ -214,8 +249,8 @@ export default function Home() {
                                 新入生向けにサークル紹介動画を作成しました。
                             </>}
                         links={[{
-                            title:"YouTube - Future Radiance",
-                            url:"https://www.youtube.com/watch?v=C2-YqtxBFP0"
+                            title: "YouTube - Future Radiance",
+                            url: "https://www.youtube.com/watch?v=C2-YqtxBFP0"
                         }]}
                     />
                     <Work
@@ -248,7 +283,16 @@ export default function Home() {
                     @2023 Copyright yudai04.dev
                 </a>
             </footer>
-
+            <style jsx global>{`
+            :root {
+                --swiper-theme-color: #cafa !important;
+            }
+            .swiper-button-prev:after,
+            .swiper-button-next:after,
+            .swiper-pagination-bullet{
+                filter: drop-shadow(2px 2px 3px #9999);
+            }
+            `}</style>
             <style jsx>{`
         main {
             padding: 5rem 0;
