@@ -69,6 +69,7 @@ export default function Home() {
         <div className={styles.aboutMe}>
           <h2>所属</h2>
           <p>芝浦工業大学 工学部情報工学科</p>
+          <p>株式会社AppBrew 開発インターン</p>
           <p><a className={styles.normalLink} href="https://shibalab.com">ShibaLab</a></p>
           <p><a className={styles.normalLink} href="https://digicre.net">デジクリ</a></p>
         </div>
