@@ -1,8 +1,8 @@
-import Head from 'next/head';
-import styles from '../styles/Home.module.css';
-import Link from 'next/link';
-import Menu from '../components/menu';
-import Carousel from '../components/carousel';
+import Head from "next/head";
+import styles from "../styles/Home.module.css";
+import Link from "next/link";
+import Menu from "../components/menu";
+import Carousel from "../components/carousel";
 
 export default function Home() {
   return (
@@ -28,28 +28,50 @@ export default function Home() {
             <h3>Chiba, Japan</h3>
           </div>
         </div>
-        
+
         <div className={styles.aboutMe}>
           <h2>About Me</h2>
-          <p>中学でロボコンに出場する部活動に入りロボットプログラミングや電子工作を学びました。</p>
-          <p>また、同時期にBasic言語で簡易的なゲームやツール等を作成し、Windows上でのGUI開発を学びました。</p>
-          <p>高校では文化祭でApacheを使用したWebサーバー運用の知識も携えました。</p>
-          <p>現在は大学で情報系を専攻し、フロントエンドを中心にデジタルアートやゲーム開発、電子工作などを行っています。</p>
+          <p>
+            中学でロボコンに出場する部活動に入りロボットプログラミングや電子工作を学びました。
+          </p>
+          <p>
+            また、同時期にBasic言語で簡易的なゲームやツール等を作成し、Windows上でのGUI開発を学びました。
+          </p>
+          <p>
+            高校では文化祭でApacheを使用したWebサーバー運用の知識も携えました。
+          </p>
+          <p>
+            現在は大学で情報系を専攻し、フロントエンドを中心にデジタルアートやゲーム開発、電子工作などを行っています。
+          </p>
         </div>
         <div className={styles.blueBtnArea}>
-          <Link className={styles.blueButton} href="/works">Works</Link>
-          <a className={styles.blueButton} href="https://www.wantedly.com/id/yudai1204">Wantedly</a>
+          <Link className={styles.blueButton} href="/works">
+            Works
+          </Link>
+          <a
+            className={styles.blueButton}
+            href="https://www.wantedly.com/id/yudai1204"
+          >
+            Wantedly
+          </a>
         </div>
         <div className={styles.aboutMe}>
           <h2>Works</h2>
-          詳細は<Link href="/works" className={styles.normalLink}>こちら</Link>のページをご覧ください。
+          詳細は
+          <Link href="/works" className={styles.normalLink}>
+            こちら
+          </Link>
+          のページをご覧ください。
           <Carousel />
         </div>
         <div className={styles.aboutMe}>
           <h2>Skills</h2>
           <div className={styles.skillDiv}>
             <h4>プログラミング言語</h4>
-            <p>JavaScript / TypeScript / GAS / SQL / Python3 / C / PHP / Java / HSP3 / HTML / CSS</p>
+            <p>
+              JavaScript / TypeScript / GAS / SQL / Python3 / C / PHP / Java /
+              HSP3 / HTML / CSS
+            </p>
           </div>
           <div className={styles.skillDiv}>
             <h4>フレームワーク</h4>
@@ -63,28 +85,64 @@ export default function Home() {
           </div>
           <div className={styles.skillDiv}>
             <h4>ツール</h4>
-            <p>Photoshop / TouchDesigner / Illustrator / Premiere Pro / After Effects / AviUtl / Figma / Canva</p>
+            <p>
+              Photoshop / TouchDesigner / Illustrator / Premiere Pro / After
+              Effects / AviUtl / Figma / Canva
+            </p>
           </div>
         </div>
         <div className={styles.aboutMe}>
           <h2>所属</h2>
           <p>芝浦工業大学 工学部情報工学科</p>
           <p>株式会社AppBrew 開発インターン</p>
-          <p><a className={styles.normalLink} href="https://shibalab.com">ShibaLab</a></p>
-          <p><a className={styles.normalLink} href="https://digicre.net">デジクリ</a></p>
+          <p>株式会社Nexceed 開発インターン</p>
+          <p>カバー株式会社 開発インターン</p>
+          <p>
+            <a className={styles.normalLink} href="https://shibalab.com">
+              ShibaLab
+            </a>
+          </p>
+          <p>
+            <a className={styles.normalLink} href="https://digicre.net">
+              デジクリ
+            </a>
+          </p>
         </div>
         <div className={styles.aboutMe}>
           <h2>自己紹介スライド</h2>
           <div className={styles.canvaDiv}>
-            <iframe loading="lazy" className={styles.canvaIframe}
-              src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlMuGeCWA&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-            </iframe>
+            <iframe
+              loading="lazy"
+              className={styles.canvaIframe}
+              src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlMuGeCWA&#x2F;view?embed"
+              allowfullscreen="allowfullscreen"
+              allow="fullscreen"
+            ></iframe>
           </div>
 
-          <p>Link: <a className={styles.normalLink} href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlMuGeCWA&#x2F;view?utm_content=DAFlMuGeCWA&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">yudai04 | Self-Introduction</a></p>
-          <p>made with <a className={styles.normalLink} href="https://canva.com" target="_blank" rel="noopener">Canva</a></p>
+          <p>
+            Link:{" "}
+            <a
+              className={styles.normalLink}
+              href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAFlMuGeCWA&#x2F;view?utm_content=DAFlMuGeCWA&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link"
+              target="_blank"
+              rel="noopener"
+            >
+              yudai04 | Self-Introduction
+            </a>
+          </p>
+          <p>
+            made with{" "}
+            <a
+              className={styles.normalLink}
+              href="https://canva.com"
+              target="_blank"
+              rel="noopener"
+            >
+              Canva
+            </a>
+          </p>
         </div>
-
 
         <div className={styles.grid}>
           <Link href="/works" className={styles.card}>
@@ -97,10 +155,7 @@ export default function Home() {
             <p>各種連絡先はこちら</p>
           </Link>
 
-          <a
-            href="https://github.com/yudai1204"
-            className={styles.card}
-          >
+          <a href="https://github.com/yudai1204" className={styles.card}>
             <h3>GitHub</h3>
             <p>私のGitHubレポジトリです</p>
           </a>
@@ -110,15 +165,14 @@ export default function Home() {
             className={styles.card}
           >
             <h3>Request</h3>
-            <p>
-              CrowdWorksへのリンク
-            </p>
+            <p>CrowdWorksへのリンク</p>
           </a>
         </div>
       </main>
 
       <footer>
-        <a className={styles.normalLink}
+        <a
+          className={styles.normalLink}
           href="https://yudai04.dev"
           target="_blank"
           rel="noopener noreferrer"
@@ -128,51 +182,51 @@ export default function Home() {
       </footer>
 
       <style jsx global>{`
-            :root {
-              --swiper-theme-color: #fffa !important;
-            }
-            .swiper-button-prev:after,
-            .swiper-button-next:after,
-            .swiper-pagination-bullet{
-              filter: drop-shadow(2px 2px 3px #666);
-            }
-            `}</style>
+        :root {
+          --swiper-theme-color: #fffa !important;
+        }
+        .swiper-button-prev:after,
+        .swiper-button-next:after,
+        .swiper-pagination-bullet {
+          filter: drop-shadow(2px 2px 3px #666);
+        }
+      `}</style>
       <style jsx>{`
         main {
-            padding: 5rem 0;
-            flex: 1;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
+          padding: 5rem 0;
+          flex: 1;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
         }
         footer {
-            width: 100%;
-            height: 100px;
-            border-top: 1px solid #eaeaea;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }   
+          width: 100%;
+          height: 100px;
+          border-top: 1px solid #eaeaea;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
         footer img {
-            margin-left: 0.5rem;
+          margin-left: 0.5rem;
         }
         footer a {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-decoration: none;
-            color: inherit;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-decoration: none;
+          color: inherit;
         }
         code {
-            background: #fafafa;
-            border-radius: 5px;
-            padding: 0.75rem;
-            font-size: 1.1rem;
-            font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+          background: #fafafa;
+          border-radius: 5px;
+          padding: 0.75rem;
+          font-size: 1.1rem;
+          font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
             DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
         }
-        `}</style>
+      `}</style>
 
       <style jsx global>{`
         html,
@@ -188,5 +242,5 @@ export default function Home() {
         }
       `}</style>
     </div>
-  )
+  );
 }
