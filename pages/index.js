@@ -70,12 +70,15 @@ export default function Home() {
             <h4>プログラミング言語</h4>
             <p>
               JavaScript / TypeScript / GAS / SQL / Python3 / C / PHP / Java /
-              HSP3 / HTML / CSS
+              HSP3 / HTML / CSS / Ruby / C# / Processing / Arduino
             </p>
           </div>
           <div className={styles.skillDiv}>
             <h4>フレームワーク</h4>
-            <p>React / Next.js / Node.js / Flask / numpy / Unity</p>
+            <p>
+              React / Next.js / Node.js / Flask / numpy / Unity / Ruby on Rails
+              / GraphQL
+            </p>
           </div>
           <div className={styles.skillDiv}>
             <h4>インフラ環境</h4>
@@ -97,6 +100,7 @@ export default function Home() {
           <p>株式会社AppBrew 開発インターン</p>
           <p>株式会社Nexceed 開発インターン</p>
           <p>カバー株式会社 開発インターン</p>
+          <p>株式会社ウサギィ 開発アルバイト</p>
           <p>
             <a className={styles.normalLink} href="https://shibalab.com">
               ShibaLab
