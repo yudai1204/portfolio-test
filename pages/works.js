@@ -77,6 +77,10 @@ export default function Home() {
                 title: "Web App",
                 url: "https://bingoapp-shibalab.vercel.app/",
               },
+              {
+                title: "GitHub レポジトリ",
+                url: "https://github.com/yudai1204/bingo-counter",
+              },
             ]}
           />
           <Work
