@@ -92,6 +92,10 @@ export default function Home() {
           </div>
         </div>
         <div className={styles.aboutMe}>
+          <h2>Award</h2>
+          <p>NASA Space Apps Challenge 2023 横浜大会優勝</p>
+        </div>
+        <div className={styles.aboutMe}>
           <h2>所属</h2>
           <p>芝浦工業大学 工学部情報工学科</p>
           <p>株式会社AppBrew 開発インターン</p>

@@ -63,6 +63,36 @@ export default function Home() {
             title="Bingo App"
             year="2023"
             lang="TypeScript / Next.js"
+            tags={["React", "Next.js", "TypeScript", "ハッカソン", "Three.js"]}
+            imgs={[]}
+            videos={["C2-YqtxBFP0"]}
+            statement={
+              <>
+                <p>NASA Space Apps Challenge 2023 横浜大会優勝作品</p>
+                <p>
+                  2初出場のハッカソンで、2日間で作り上げました。同じく初出場メンバー計4人でチームを作成し、リーダーとして環境構築からコーディング、レビューまで行いました。世界大会に出場します。
+                </p>
+              </>
+            }
+            links={[
+              {
+                title: "Web App",
+                url: "https://nasa-hackathon-2023-yokohama.vercel.app/",
+              },
+              {
+                title: "Video",
+                url: "https://www.youtube.com/watch?v=Il3rgj9Lo7g",
+              },
+              {
+                title: "GitHub",
+                url: "https://github.com/yudai1204/nasa-hackathon-2023-yokohama",
+              },
+            ]}
+          />
+          <Work
+            title="Bingo App"
+            year="2023"
+            lang="TypeScript / Next.js"
             tags={["React", "Next.js", "TypeScript", "個人開発"]}
             imgs={["/bingoapp.png"]}
             videos={[]}
