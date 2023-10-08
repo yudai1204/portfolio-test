@@ -65,7 +65,7 @@ export default function Home() {
             lang="TypeScript / Next.js"
             tags={["React", "Next.js", "TypeScript", "ハッカソン", "Three.js"]}
             imgs={[]}
-            videos={["C2-YqtxBFP0"]}
+            videos={["Il3rgj9Lo7g"]}
             statement={
               <>
                 <p>NASA Space Apps Challenge 2023 横浜大会優勝作品</p>
