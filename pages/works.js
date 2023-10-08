@@ -60,7 +60,7 @@ export default function Home() {
             ]}
           />
           <Work
-            title="Bingo App"
+            title="Moonquake Viewer"
             year="2023"
             lang="TypeScript / Next.js"
             tags={["React", "Next.js", "TypeScript", "ハッカソン", "Three.js"]}
