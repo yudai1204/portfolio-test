@@ -8,8 +8,4 @@ const nextConfig = {
     basePath: branchName,
 };
 
-module.exports = {
-  basePath: process.env.GITHUB_ACTIONS ? "/yudai04.dev" : "",
-  trailingSlash: true,
-  assetPrefix: '/',
-};
+module.exports = nextConfig;
